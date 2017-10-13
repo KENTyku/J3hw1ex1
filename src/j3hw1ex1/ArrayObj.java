@@ -6,18 +6,13 @@
 package j3hw1ex1;
 /**
  *
- * @author user
+ * @author Yuri Tveritin
  */
 public class ArrayObj {
     Obj[] ar;
     ArrayObj(Obj[] ar){
        this.ar = ar;
     }
-    /*void arraySet(Obj a0,Obj a1){
-            ar[0]=a0;
-            ar[1]=a1;
-    }
-    */
     ArrayObj arrayChange(ArrayObj mas){
             Obj c = mas.ar[0];
             mas.ar[0] = mas.ar[1];
