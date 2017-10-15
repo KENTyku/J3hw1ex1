@@ -6,14 +6,23 @@
 package j3hw1ex1;
 /**
  *
- * @author user
+ * @author Yuri Tveritin
  */
 public class Obj {
-    String name;
-    Integer age;
+    private String name;
+    private Integer age;
     Obj(String name,Integer age){
             this.name=name;
             this.age=age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+    
 
 }

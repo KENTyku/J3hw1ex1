@@ -9,7 +9,7 @@ package j3hw1ex1;
  * @author Yuri Tveritin
  */
 public class ArrayObj {
-    Obj[] ar;
+    private Obj[] ar;
     ArrayObj(Obj[] ar){
        this.ar = ar;
     }
@@ -18,5 +18,9 @@ public class ArrayObj {
             mas.ar[0] = mas.ar[1];
             mas.ar[1] = c;
             return mas;
-    }	
+    } 
+
+    public Obj[] getAr() {
+        return ar;
+    }    
 }
