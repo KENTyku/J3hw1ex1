@@ -15,12 +15,11 @@ public class J3hw1ex1{
             ar[0] = new Obj("Yuri",33);   
             ar[1] = new Obj("Ron",30);            
             ArrayObj mas=new ArrayObj(ar);
-            System.out.print(mas.ar[0].name);
-            System.out.println(mas.ar[0].age);
-            mas.arrayChange(mas);
-            //mas.arrayChange( ar);
-            System.out.print(mas.ar[0].name);
-            System.out.println(mas.ar[0].age);
+            System.out.print(mas.getAr()[0].getName());
+            System.out.println(mas.getAr()[0].getAge());
+            mas.arrayChange(mas);            
+            System.out.print(mas.getAr()[0].getName());
+            System.out.println(mas.getAr()[0].getAge());
     }
 }
 
