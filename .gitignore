@@ -3,3 +3,5 @@
 /nbproject/
 /test/
 !/.gitignore
+/build.xml
+/manifest.mf
